@@ -1,0 +1,4 @@
+hola	hello
+esto	this
+correr	run
+malo	bad
