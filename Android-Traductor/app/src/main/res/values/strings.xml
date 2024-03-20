@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">NLP</string>
+    <string name="serpiente">serpiente</string>
+    <string name="frase_en_espa_ol">Frase en Español</string>
+    <string name="traducir">TRADUCIR</string>
+    <string name="logo_fie">Logo fie</string>
 </resources>

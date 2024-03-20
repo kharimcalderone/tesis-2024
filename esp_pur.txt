@@ -1,9 +1,6 @@
-Come	A
+Come	Arhani 
 Señor	Acha
-Señor de respeto	Achaati
-Hombre de respeto	Achamasï
 Del caballero	Achamasïr
-hombre de familia	Acheeti
 Del señor	Acheetiri
 Ajolote	Achoki
 Comunicar	Aianguni
@@ -17,8 +14,6 @@ Chayotillo	Akarhini
 En el chayotillo	Akarhinirhu
 Cómelo	Aku
 Comestible	Akua
-Cortarse en el cuello	Akuarhchani
-Cortarse en la cara	Akuarhenharhini
 Herida	Akuarheta
 Herida en la boca	Akuarhimuni
 Herida en la oreja	Akuarhindini

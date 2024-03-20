@@ -8,37 +8,58 @@
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="383dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="68dp"
+        android:autofillHints=""
+        android:background="@drawable/rounded_gray_background"
         android:ems="10"
-        android:hint="Frase en Español"
-        android:inputType="textPersonName"
-        android:text="serpiente"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:gravity="start|top"
+        android:hint="@string/frase_en_espa_ol"
+        android:inputType="textMultiLine"
+        android:padding="8dp"
+        android:text="@string/serpiente"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:text="TRADUCIR"
+        android:layout_marginTop="8dp"
+        android:text="@string/traducir"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:textSize="30sp"
+        android:layout_width="376dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/rounded_gray_background"
+        android:textSize="20sp"
         android:textStyle="bold|italic"
-        app:layout_constraintEnd_toEndOf="@+id/button2"
-        app:layout_constraintStart_toStartOf="@+id/button2"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="194dp"
+        android:layout_height="159dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="134dp"
+        android:contentDescription="@string/logo_fie"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fielogo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
