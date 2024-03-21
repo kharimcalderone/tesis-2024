@@ -10,7 +10,7 @@
         android:id="@+id/editText"
         android:layout_width="383dp"
         android:layout_height="102dp"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="76dp"
         android:autofillHints=""
         android:background="@drawable/rounded_gray_background"
         android:ems="10"
@@ -18,11 +18,12 @@
         android:hint="@string/frase_en_espa_ol"
         android:inputType="textMultiLine"
         android:padding="8dp"
-        android:text="@string/serpiente"
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        />
+        <!--android:text="@string/serpiente"-->
 
     <Button
         android:id="@+id/button2"
@@ -36,15 +37,15 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="376dp"
-        android:layout_height="106dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="384dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="12dp"
         android:background="@drawable/rounded_gray_background"
+        android:padding="8dp"
         android:textSize="20sp"
         android:textStyle="bold|italic"
-        android:padding="8dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
@@ -61,5 +62,33 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/fielogo" />
+
+
+    <ImageView
+        android:layout_width="53dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="7dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/espa"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <ImageView
+        android:layout_width="53dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="12dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pure"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
