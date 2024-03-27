@@ -1,7 +1,7 @@
 [
     {
-        "merged": "C:\\Users\\karim\\.gradle\\daemon\\7.4\\com.ankan.nlp.app-merged_res-22:\\layout_rounded_gray_background.xml.flat",
-        "source": "C:\\Users\\karim\\.gradle\\daemon\\7.4\\com.ankan.nlp.app-main-24:\\layout\\rounded_gray_background.xml"
+        "merged": "C:\\Users\\karim\\.gradle\\daemon\\7.4\\com.ankan.nlp.app-merged_res-22:\\drawable_pure.png.flat",
+        "source": "C:\\Users\\karim\\.gradle\\daemon\\7.4\\com.ankan.nlp.app-main-24:\\drawable\\pure.png"
     },
     {
         "merged": "C:\\Users\\karim\\.gradle\\daemon\\7.4\\com.ankan.nlp.app-merged_res-22:\\mipmap-xxxhdpi_ic_launcher.png.flat",
@@ -66,6 +66,10 @@
     {
         "merged": "C:\\Users\\karim\\.gradle\\daemon\\7.4\\com.ankan.nlp.app-merged_res-22:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\karim\\.gradle\\daemon\\7.4\\com.ankan.nlp.app-pngs-17:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\karim\\.gradle\\daemon\\7.4\\com.ankan.nlp.app-merged_res-22:\\drawable_espa.png.flat",
+        "source": "C:\\Users\\karim\\.gradle\\daemon\\7.4\\com.ankan.nlp.app-main-24:\\drawable\\espa.png"
     },
     {
         "merged": "C:\\Users\\karim\\.gradle\\daemon\\7.4\\com.ankan.nlp.app-merged_res-22:\\mipmap-xxhdpi_ic_launcher.png.flat",
